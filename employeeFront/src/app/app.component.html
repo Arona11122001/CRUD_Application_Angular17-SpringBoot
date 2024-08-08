@@ -1,0 +1,25 @@
+<nav class="nav navbar-expand-sm bg-primary navbar-dark" >
+
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a routerLink="/employees" routerLinkActive="active" class="nav-link"> Employees </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/create-employee" routerLinkActive="active" class="nav-link"> Add employee </a>
+    </li>
+  </ul>
+</nav>
+
+
+
+<h1 class="text-center">Bienvenue dans le CRUD des employés </h1> 
+<div class="container">
+<router-outlet> </router-outlet>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted"> All Rights Reserved 2022 Simplon </span>
+
+  </div>
+</footer>
